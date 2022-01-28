@@ -3,6 +3,42 @@ Start
 Number of generated k-mers: 67108864
 Finish!
 
+real	0m1,663s
+user	0m0,799s
+sys	0m0,138s
+
+c++ 14-mers:
+Start
+Number of generated k-mers: 268435456
+Finish!
+
+real	0m2,986s
+user	0m2,822s
+sys	0m0,130s
+
+python 13-mers:
+Start
+Number of generated k-mers: 67108864
+Finish!
+
+real	1m33,671s
+user	1m33,235s
+sys	0m0,178s
+
+python 14-mers:
+Start
+Number of generated k-mers: 268435456
+Finish!
+
+real	6m22,060s
+user	6m21,289s
+sys	0m0,173s
+
+c++ 13-mers:
+Start
+Number of generated k-mers: 67108864
+Finish!
+
 real	0m0,712s
 user	0m0,711s
 sys	0m0,001s
@@ -33,3 +69,4 @@ Finish!
 real	7m2,249s
 user	7m1,607s
 sys	0m0,004s
+Submitted batch job 9523
