@@ -9,10 +9,10 @@
 #SBATCH --mail-user=sergio.velam@um.es
 
 echo "c++ 13-mers:"
-time ./k-mer13.cpp
+time ./k-mer13
 echo #
 echo "c++ 14-mers:"
-time ./k-mer14.cpp
+time ./k-mer14
 echo #
 echo "python 13-mers:"
 time python ./k-mer13.py
