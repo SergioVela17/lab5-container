@@ -1,0 +1,41 @@
+c++ 13-mers:
+./k-mer13.cpp: línea 3: $'\r': no se encontró la orden
+./k-mer13.cpp: línea 4: using: no se encontró la orden
+./k-mer13.cpp: línea 4: $'\r': no se encontró la orden
+./k-mer13.cpp: línea 5: $'\r': no se encontró la orden
+./k-mer13.cpp: línea 6: error sintáctico cerca del elemento inesperado `('
+./k-mer13.cpp: línea 6: `char convert(char c)'
+
+real	0m0,003s
+user	0m0,003s
+sys	0m0,001s
+
+c++ 14-mers:
+./k-mer14.cpp: línea 3: $'\r': no se encontró la orden
+./k-mer14.cpp: línea 4: using: no se encontró la orden
+./k-mer14.cpp: línea 4: $'\r': no se encontró la orden
+./k-mer14.cpp: línea 5: $'\r': no se encontró la orden
+./k-mer14.cpp: línea 6: error sintáctico cerca del elemento inesperado `('
+./k-mer14.cpp: línea 6: `char convert(char c)'
+
+real	0m0,003s
+user	0m0,002s
+sys	0m0,001s
+
+python 13-mers:
+Start
+Number of generated k-mers: 67108864
+Finish!
+
+real	1m43,941s
+user	1m43,779s
+sys	0m0,007s
+
+python 14-mers:
+Start
+Number of generated k-mers: 268435456
+Finish!
+
+real	7m5,263s
+user	7m4,630s
+sys	0m0,004s
